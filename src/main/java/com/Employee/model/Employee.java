@@ -4,11 +4,15 @@ public class Employee {
 	
 	
 	private String name;
-	private String employeeId;
-	private double salary;
+	private int employeeId;
+	private float salary;
 	private String country;
 	private String city;
 	private int zipCode;
+	
+	private int orderId;
+	private String orderName;
+	
 	
 	
 	public String getName() {
@@ -18,17 +22,17 @@ public class Employee {
 		this.name = name;
 	}
 	
-	public String getEmployeeId() {
+	public int getEmployeeId() {
 		return employeeId;
 	}
-	public void setEmployeeId(String employeeId) {
+	public void setEmployeeId(int employeeId) {
 		this.employeeId = employeeId;
 	}
-	public double getSalary() {
+	public float getSalary() {
 		return salary;
 	}
-	public void setSalary(double salary) {
-		this.salary = salary;
+	public void setSalary(float d) {
+		this.salary = d;
 	}
 	public String getCountry() {
 		return country;
@@ -48,6 +52,23 @@ public class Employee {
 	public void setZipCode(int zipCode) {
 		this.zipCode = zipCode;
 	}
+	
+	
+	//For Order
+	
+	
+	public int getOrderId() {
+		return orderId;
+	}
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
+	}
+	public String getOrderName() {
+		return orderName;
+	}
+	public void setOrderName(String orderName) {
+		this.orderName = orderName;
+	}	
 	
 	 
 
